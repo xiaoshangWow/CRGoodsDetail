@@ -1,0 +1,22 @@
+{
+  "name": "CRProtocolManager",
+  "version": "0.0.1",
+  "summary": "CRProtocolManager是一个iOS组件化开发的组件之一，主要用来管理模块跳转",
+  "description": "This is a test for CRProtocolManager, CRProtocolManager是一个iOS组件化开发的组件之一，主要用来管理\n模块跳转",
+  "homepage": "https://github.com/xiaoshangWow/CRProtocolManager",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "许磊": "lxu@jinhetech.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/xiaoshangWow/CRProtocolManager.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "CRProtocolManager/CRProtocolManager/**/*.{h,m}"
+}

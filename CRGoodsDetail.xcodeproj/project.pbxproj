@@ -15,6 +15,9 @@
 		3BB86A48202C290700132467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86A47202C290700132467 /* main.m */; };
 		3BB86A52202C290700132467 /* CRGoodsDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86A51202C290700132467 /* CRGoodsDetailTests.m */; };
 		3BB86A5D202C290700132467 /* CRGoodsDetailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86A5C202C290700132467 /* CRGoodsDetailUITests.m */; };
+		3BB86A6D202C296E00132467 /* CRGoodsDetailServiceProvide.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86A6C202C296E00132467 /* CRGoodsDetailServiceProvide.m */; };
+		3BB86A70202C3D6200132467 /* CRGoodsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB86A6F202C3D6200132467 /* CRGoodsDetailViewController.m */; };
+		684CF035B990390A5F05E064 /* libPods-CRGoodsDetail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D2BB2111EB3642D89B3E42E /* libPods-CRGoodsDetail.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D2BB2111EB3642D89B3E42E /* libPods-CRGoodsDetail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CRGoodsDetail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB86A35202C290700132467 /* CRGoodsDetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRGoodsDetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB86A38202C290700132467 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3BB86A39202C290700132467 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +55,12 @@
 		3BB86A58202C290700132467 /* CRGoodsDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRGoodsDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB86A5C202C290700132467 /* CRGoodsDetailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRGoodsDetailUITests.m; sourceTree = "<group>"; };
 		3BB86A5E202C290700132467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BB86A6B202C296E00132467 /* CRGoodsDetailServiceProvide.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRGoodsDetailServiceProvide.h; sourceTree = "<group>"; };
+		3BB86A6C202C296E00132467 /* CRGoodsDetailServiceProvide.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRGoodsDetailServiceProvide.m; sourceTree = "<group>"; };
+		3BB86A6E202C3D6200132467 /* CRGoodsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRGoodsDetailViewController.h; sourceTree = "<group>"; };
+		3BB86A6F202C3D6200132467 /* CRGoodsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRGoodsDetailViewController.m; sourceTree = "<group>"; };
+		8F1316DA693EC0752FE9855C /* Pods-CRGoodsDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRGoodsDetail.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRGoodsDetail/Pods-CRGoodsDetail.release.xcconfig"; sourceTree = "<group>"; };
+		9FCF4E4485F08BBC008D77D2 /* Pods-CRGoodsDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRGoodsDetail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRGoodsDetail/Pods-CRGoodsDetail.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				684CF035B990390A5F05E064 /* libPods-CRGoodsDetail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15E4C4282023B14DDAF3DD56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D2BB2111EB3642D89B3E42E /* libPods-CRGoodsDetail.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3BB86A2C202C290700132467 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +104,8 @@
 				3BB86A50202C290700132467 /* CRGoodsDetailTests */,
 				3BB86A5B202C290700132467 /* CRGoodsDetailUITests */,
 				3BB86A36202C290700132467 /* Products */,
+				4F208BAEB6126B803A59C2E0 /* Pods */,
+				15E4C4282023B14DDAF3DD56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +122,7 @@
 		3BB86A37202C290700132467 /* CRGoodsDetail */ = {
 			isa = PBXGroup;
 			children = (
+				3BB86A6A202C291600132467 /* CRGoodsDetail */,
 				3BB86A38202C290700132467 /* AppDelegate.h */,
 				3BB86A39202C290700132467 /* AppDelegate.m */,
 				3BB86A3B202C290700132467 /* ViewController.h */,
@@ -132,6 +154,26 @@
 			path = CRGoodsDetailUITests;
 			sourceTree = "<group>";
 		};
+		3BB86A6A202C291600132467 /* CRGoodsDetail */ = {
+			isa = PBXGroup;
+			children = (
+				3BB86A6B202C296E00132467 /* CRGoodsDetailServiceProvide.h */,
+				3BB86A6C202C296E00132467 /* CRGoodsDetailServiceProvide.m */,
+				3BB86A6E202C3D6200132467 /* CRGoodsDetailViewController.h */,
+				3BB86A6F202C3D6200132467 /* CRGoodsDetailViewController.m */,
+			);
+			path = CRGoodsDetail;
+			sourceTree = "<group>";
+		};
+		4F208BAEB6126B803A59C2E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FCF4E4485F08BBC008D77D2 /* Pods-CRGoodsDetail.debug.xcconfig */,
+				8F1316DA693EC0752FE9855C /* Pods-CRGoodsDetail.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BB86A61202C290700132467 /* Build configuration list for PBXNativeTarget "CRGoodsDetail" */;
 			buildPhases = (
+				B7A00D891EFF7AD3263B51B8 /* [CP] Check Pods Manifest.lock */,
 				3BB86A31202C290700132467 /* Sources */,
 				3BB86A32202C290700132467 /* Frameworks */,
 				3BB86A33202C290700132467 /* Resources */,
+				3ECCFB9B166F7D142E5A92F2 /* [CP] Embed Pods Frameworks */,
+				6BD9BADDD18A7D8725C5EB49 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +305,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3ECCFB9B166F7D142E5A92F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRGoodsDetail/Pods-CRGoodsDetail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD9BADDD18A7D8725C5EB49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CRGoodsDetail/Pods-CRGoodsDetail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A00D891EFF7AD3263B51B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CRGoodsDetail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3BB86A31202C290700132467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB86A70202C3D6200132467 /* CRGoodsDetailViewController.m in Sources */,
 				3BB86A3D202C290700132467 /* ViewController.m in Sources */,
 				3BB86A48202C290700132467 /* main.m in Sources */,
+				3BB86A6D202C296E00132467 /* CRGoodsDetailServiceProvide.m in Sources */,
 				3BB86A3A202C290700132467 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +526,7 @@
 		};
 		3BB86A62202C290700132467 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCF4E4485F08BBC008D77D2 /* Pods-CRGoodsDetail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +541,7 @@
 		};
 		3BB86A63202C290700132467 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1316DA693EC0752FE9855C /* Pods-CRGoodsDetail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
