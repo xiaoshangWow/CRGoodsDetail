@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CRGoodsDetailServiceProvide : NSObject
+@interface CRGoodsDetailServiceProvide : NSObject 
 
 @end
