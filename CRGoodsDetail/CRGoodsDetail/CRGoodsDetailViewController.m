@@ -36,6 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = self.title;
+    self.view.backgroundColor = [UIColor whiteColor];
 
     [self.view addSubview:self.statusLabel];
     [self.view addSubview:self.buyButton];
