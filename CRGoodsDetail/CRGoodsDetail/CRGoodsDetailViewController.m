@@ -84,6 +84,7 @@
         [_buyButton setTitle:@"立即购买" forState:UIControlStateNormal];
         [_buyButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         [_buyButton setBackgroundColor:[UIColor redColor]];
+        [_buyButton addTarget:self action:@selector(didClickBuyButton:) forControlEvents:UIControlEventTouchUpInside];
     }
     return _buyButton;
 }
