@@ -1,0 +1,23 @@
+{
+  "name": "CRConfirmOrderServiceProtocol",
+  "version": "0.0.1",
+  "summary": "订单确认模块接口",
+  "description": "组件化:订单确认模块接口",
+  "homepage": "https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "许磊": "lxu@jinhetech.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "CRConfirmOrderServiceProtocol/CRConfirmOrderServiceProtocol/**/*.{h,m}",
+  "frameworks": "UIKit"
+}

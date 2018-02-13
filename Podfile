@@ -7,5 +7,6 @@ target 'CRGoodsDetail' do
 
 pod 'CRProtocolManager', :git => 'https://github.com/xiaoshangWow/CRProtocolManager.git'
 pod 'CRGoodsDetailServiceProtocol', :git => 'https://github.com/xiaoshangWow/CRGoodsDetailServiceProtocol.git'
+pod 'CRConfirmOrderServiceProtocol', :git => 'https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol.git'
 
 end

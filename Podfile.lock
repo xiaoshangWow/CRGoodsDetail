@@ -1,18 +1,25 @@
 PODS:
+  - CRConfirmOrderServiceProtocol (0.0.1)
   - CRGoodsDetailServiceProtocol (0.0.1)
   - CRProtocolManager (0.0.1)
 
 DEPENDENCIES:
+  - CRConfirmOrderServiceProtocol (from `https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol.git`)
   - CRGoodsDetailServiceProtocol (from `https://github.com/xiaoshangWow/CRGoodsDetailServiceProtocol.git`)
   - CRProtocolManager (from `https://github.com/xiaoshangWow/CRProtocolManager.git`)
 
 EXTERNAL SOURCES:
+  CRConfirmOrderServiceProtocol:
+    :git: https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol.git
   CRGoodsDetailServiceProtocol:
     :git: https://github.com/xiaoshangWow/CRGoodsDetailServiceProtocol.git
   CRProtocolManager:
     :git: https://github.com/xiaoshangWow/CRProtocolManager.git
 
 CHECKOUT OPTIONS:
+  CRConfirmOrderServiceProtocol:
+    :commit: d36fb79f8391169631f0c8247c14d03c4c56f46b
+    :git: https://github.com/xiaoshangWow/CRConfirmOrderServiceProtocol.git
   CRGoodsDetailServiceProtocol:
     :commit: 2cdeac35d87ca82f699094ce22e6a9029344bf0d
     :git: https://github.com/xiaoshangWow/CRGoodsDetailServiceProtocol.git
@@ -21,9 +28,10 @@ CHECKOUT OPTIONS:
     :git: https://github.com/xiaoshangWow/CRProtocolManager.git
 
 SPEC CHECKSUMS:
+  CRConfirmOrderServiceProtocol: eb10346d998eefab277c7209a8fa4b24d8f7309f
   CRGoodsDetailServiceProtocol: 5f429beb83f2c9466432be1d5890fbbf61916bc8
   CRProtocolManager: 0eb18c611db9e91bc08bdefe58c5b9b9e7e2c4cb
 
-PODFILE CHECKSUM: f7c4347e8d9e1fce5b5eba0a2185f7ca7bc7c0db
+PODFILE CHECKSUM: d7e29df14642b815573a5a2337c11b43490d819e
 
 COCOAPODS: 1.4.0
